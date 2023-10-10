@@ -1,0 +1,32 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100% !important;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+}
+.cardComponentWrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.cardWrapper{
+  padding: 25px;
+}
+
+.sectionWrapper {
+  width: 93%;
+  display: flex;
+  justify-content: end;
+}
+
+.css-b62m3t-container {
+  min-width: 300px;
+}
+
+.headingsWrapper {
+  width: "100%";
+  margin-top: "100px"
+}
