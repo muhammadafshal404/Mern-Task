@@ -47,6 +47,10 @@ const CardComponent = ()=>{
 								sx={{ height: 140 }}
 								image={article?.multimedia?.[0]?.url || 'main-qimg-1a4bafe2085452fdc55f646e3e31279c-lq.jpeg'}
 								title="green iguana"
+								onClick={(e) => {
+									e.preventDefault();
+									window.open(article?.url, "_blank", "noreferrer")
+								}}
 							/>
 							<CardContent>
 								<Typography gutterBottom variant="h5" component="div" sx={{
@@ -72,7 +76,7 @@ const CardComponent = ()=>{
 							</CardContent>
 							<CardActions>
 								
-								<a href={article?.url}>Read More...</a>
+								{/* <a href={article?.url}>Read More...</a> */}
 							</CardActions>
 						</Card>
 					</div>

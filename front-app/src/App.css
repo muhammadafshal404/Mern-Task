@@ -14,6 +14,7 @@
 
 .cardWrapper{
   padding: 25px;
+  cursor: pointer;
 }
 
 .sectionWrapper {
